@@ -18,6 +18,13 @@
     font-weight: bold;
     text-align:center;
 }
+.ad {
+    border: 3px solid bold;
+    font-family: Arial, sans -serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:left;
+}
 .link {
     border: 3px solid bold;
     font-family: Arial, sans -serif;
@@ -25,16 +32,30 @@
     font-weight: bold;
     text-align:right;
 }
-body{
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 30vh;
-    padding: 20px;
-}
 .normal input{
     font-size: 16px;
     border-radius: 10px;
 }
+
+.ad input[type=submit]  {
+    background-color: #2552ce;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 50px 700px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .ad input[type=text]{
+
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+
+
+  }
